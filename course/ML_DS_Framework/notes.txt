@@ -1,1 +1,9 @@
 Adam Forestier
+
+6 step Machine Learning Framework
+1. Problem Definition - What problem are we trying to solve?
+2. Data - what data do we have?
+3. Evaluation - What defines success?
+4. Features - What features should we model?
+5. Modeling - What kind of model should we use
+6. Experiments - What have we tried/what else can we try?
