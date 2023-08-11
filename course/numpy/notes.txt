@@ -1,0 +1,9 @@
+Adam Forestier
+August 2, 2023
+
+Why numpy (numerical python)
+    - Written in C, super fast (wayyyyyy faster than lists)!
+    - performs vectorization via broadcasting (avoiding loops!) So Fast!
+
+    * Machine Learning is converting data to numbers and then finds patterns within those numbers
+    * NumPy is the backbone of most data science in python
