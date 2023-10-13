@@ -31,10 +31,10 @@ Resource Link: [MIT Intro to Deep Learning](https://www.youtube.com/watch?v=njKP
 - The **loss** of our network measures the cost incurred from incorrect predictions
 - **empirical loss** measures the total loss over the entire dataset
 - **softmax cross entropy loss** can be used with models that output a probability between 0 and 1
-- **Mean Squared Error Loss** used w/ regression models taht output continuous real numbers
+- **Mean Squared Error Loss** used w/ regression models that output continuous real numbers
 
 ###### Training Neural Networks
-*Goal*: We wawnt to find the network weights that achieve the lowest loss <br>
+*Goal*: We want to find the network weights that achieve the lowest loss <br>
 *Remember*: Loss is a function of the network weights <br>
 **Gradient Desent Algorithm**
 1. Initialize weights randomly
@@ -49,7 +49,7 @@ Resource Link: [MIT Intro to Deep Learning](https://www.youtube.com/watch?v=njKP
 ###### Optimization
 *Remember* - optimization through gradient descent <br>
 **Loss Functions**: How much of a step we should take in the direction of a gradient
-- *small learning rate*: converges slowly and gets stuck ijn false local minima
+- *small learning rate*: converges slowly and gets stuck in false local minima
 - *large learning rate*: overshoot & become unstable and diverge
 - *stable learning rate*: converges smoothly and avoid local minima<br>
 
@@ -68,7 +68,7 @@ Resource Link: [MIT Intro to Deep Learning](https://www.youtube.com/watch?v=njKP
 - Adagrad *tf.keras.optimizers.Adagrad*
 - RMSProp *tf.keras.optimizers.RMSProp*<br>
 
-*Note* - In practice, very computationall expensive to compute gradient descent for each point, instead use "mini-batches" select a certain number of randomly selected points to compute weights for
+*Note* - In practice, very computationally expensive to compute gradient descent for each point, instead use "mini-batches" select a certain number of randomly selected points to compute weights for
 
 ###### Overfitting
 - **Underfitting** Model does not have capacity to fully learn data
